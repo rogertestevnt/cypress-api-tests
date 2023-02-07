@@ -9,4 +9,4 @@ API documentation: https://fakerestapi.azurewebsites.net/index.html
 The schema validation sample makes usage of Joi,a helpful lib for data validation
 for Javascript: [Joi](https://www.npmjs.com/package/joi)
 
-This is the link for Cypress documentation: [Cypress Doc] (https://docs.cypress.io/guides/overview/why-cypress)
+This is the link for Cypress documentation: [Cypress Doc](https://docs.cypress.io/guides/overview/why-cypress)
