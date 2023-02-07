@@ -1,0 +1,27 @@
+{
+  "name": "cypress-api-tests",
+  "version": "1.0.0",
+  "description": "Sample repository for using Cypress to design API tests",
+  "main": "index.js",
+  "scripts": {
+    "cypress: open": "./node_modules/.bin/cypress open",
+    "cypress: run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogertestevnt/cypress-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogertestevnt/cypress-api-tests/issues"
+  },
+  "homepage": "https://github.com/rogertestevnt/cypress-api-tests#readme",
+  "devDependencies": {
+    "cypress": "12.5.1"
+  },
+  "dependencies": {
+    "joi": "17.7.0"
+  }
+}
