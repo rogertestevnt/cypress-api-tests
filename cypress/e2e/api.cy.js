@@ -24,7 +24,7 @@ describe('API Test sample', () => {
   })
 
   it('Schema validation testing sample',() => {
-    cy.request("GET", "Books")
+    cy.request("GET", "/Books")
     .then((response) => {
       return booksListSchema.validateAsync(response.body)
     })
