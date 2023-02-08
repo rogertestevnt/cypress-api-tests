@@ -16,7 +16,7 @@ describe('API Test sample', () => {
 
 
   it('GET - validate the response status and contents', () => {
-    cy.request("GET", "Books")
+    cy.request("GET", "/Books")
     .then((response) => {
       expect(response.status).to.eq(HTTP_OK)
       expect(response.body[0].title).to.eq("Book 1")
